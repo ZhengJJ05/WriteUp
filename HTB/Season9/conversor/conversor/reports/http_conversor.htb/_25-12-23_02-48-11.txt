@@ -1,0 +1,10 @@
+# Dirsearch started Tue Dec 23 02:55:08 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://conversor.htb
+
+200     3KB  http://conversor.htb/about
+404   275B   http://conversor.htb/javascript/tiny_mce
+404   275B   http://conversor.htb/javascript/editors/fckeditor
+301   319B   http://conversor.htb/javascript    -> REDIRECTS TO: http://conversor.htb/javascript/
+200   722B   http://conversor.htb/login
+200   726B   http://conversor.htb/register
+403   278B   http://conversor.htb/server-status
+403   278B   http://conversor.htb/server-status/
