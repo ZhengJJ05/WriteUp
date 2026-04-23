@@ -1,0 +1,7 @@
+# Dirsearch started Thu Apr 23 03:09:55 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.129.28.77 -t 5 -x 404
+
+302   208B   http://10.129.28.77/data    -> REDIRECTS TO: http://10.129.28.77/
+302   208B   http://10.129.28.77/data/adminer.php    -> REDIRECTS TO: http://10.129.28.77/
+302   208B   http://10.129.28.77/data/autosuggest    -> REDIRECTS TO: http://10.129.28.77/
+302   208B   http://10.129.28.77/download/history.csv    -> REDIRECTS TO: http://10.129.28.77/
+302   208B   http://10.129.28.77/download/users.csv    -> REDIRECTS TO: http://10.129.28.77/
