@@ -1,0 +1,290 @@
+/* =======================
+   Fonts & Reset
+======================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #1e293b;
+  overflow-x: hidden;
+}
+
+/* =======================
+   Layout flex vertical
+======================= */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* =======================
+   Navbar styles (fixed top)
+======================= */
+nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  z-index: 1030;
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.6);
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+nav.navbar:hover {
+  background: linear-gradient(90deg, #1e40af, #2563eb);
+}
+
+nav.navbar .navbar-brand {
+  color: #f0f9ff !important;
+  font-size: 1.4rem;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
+}
+
+nav.navbar .navbar-brand:hover {
+  color: #a5b4fc !important;
+  text-shadow: 0 0 6px rgba(165, 180, 252, 0.8);
+}
+
+nav.navbar .nav-link {
+  color: #dbeafe !important;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 8px;
+}
+
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link:focus {
+  color: #f0f9ff !important;
+  background-color: rgba(255 255 255 / 0.15);
+  box-shadow: 0 0 8px rgba(255 255 255 / 0.3);
+}
+
+.navbar-toggler {
+  border-color: #a5b4fc;
+}
+
+.navbar-toggler-icon {
+  filter: drop-shadow(0 0 1px #a5b4fc);
+}
+
+/* =======================
+   Main content area
+======================= */
+main#app-main {
+  flex-grow: 1;
+  margin-top: 56px;   /* space for fixed navbar */
+  margin-bottom: 48px; /* space for fixed footer */
+  padding: 2rem;
+  overflow-y: auto;
+  background: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* =======================
+   Elegant card container
+======================= */
+.elegant-card {
+  background: rgba(255 255 255 / 0.85);
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  box-shadow:
+    0 20px 30px rgba(0 0 0 / 0.05),
+    0 8px 10px rgba(0 0 0 / 0.03);
+  padding: 3rem 4rem;
+  width: 100%;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* =======================
+   FadeIn animation
+======================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =======================
+   Buttons styling
+======================= */
+button.btn {
+  background-color: #2563eb;
+  border: none;
+  padding: 0.85rem 1.4rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  user-select: none;
+  width: 100%;
+  flex-shrink: 0;
+  margin-top: 1rem;
+}
+
+button.btn:hover,
+button.btn:focus {
+  background-color: #1e40af;
+  box-shadow: 0 10px 22px rgba(30, 64, 175, 0.45);
+  transform: translateY(-2px);
+}
+
+button.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 12px rgba(30, 64, 175, 0.35);
+}
+
+.btn-outline-secondary {
+  border: 2px solid #64748b;
+  background: transparent;
+  color: #475569;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  flex-shrink: 0;
+  width: auto;
+  margin-top: 1rem;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: #cbd5e1;
+  color: #1e293b;
+}
+
+/* =======================
+   Result box styling
+======================= */
+.result-box {
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1.5px solid #cbd5e1;
+  padding: 2rem;
+  overflow-y: auto;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  box-shadow: inset 0 2px 8px rgba(0 0 0 / 0.05);
+  max-height: 70vh;
+  width: 100%;
+}
+
+/* =======================
+   Scrollbar styling
+======================= */
+.result-box::-webkit-scrollbar {
+  width: 12px;
+}
+.result-box::-webkit-scrollbar-track {
+  background: transparent;
+}
+.result-box::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2563eb, #1e40af);
+  border-radius: 12px;
+}
+
+/* =======================
+   Footer styles (fixed bottom)
+======================= */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  color: #e0e7ff;
+  border-top: none;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 -4px 12px rgba(37, 99, 235, 0.6);
+  user-select: none;
+  letter-spacing: 0.05em;
+  transition: background-color 0.3s ease;
+}
+
+footer:hover {
+  background: linear-gradient(90deg, #2563eb, #1e3a8a);
+}
+
+/* =======================
+   Responsive adjustments
+======================= */
+@media (max-width: 720px) {
+  .elegant-card {
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+  }
+  button.btn {
+    font-size: 1rem;
+  }
+}
+.dev-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.dev-card {
+    text-align: center;
+    max-width: 200px;
+    margin: 15px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dev-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.role {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: -5px;
+}

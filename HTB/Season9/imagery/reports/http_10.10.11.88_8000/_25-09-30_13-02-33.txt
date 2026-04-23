@@ -1,0 +1,8 @@
+# Dirsearch started Tue Sep 30 13:06:18 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.10.11.88:8000 -x 404
+
+401    59B   http://10.10.11.88:8000/images
+405   153B   http://10.10.11.88:8000/login
+405   153B   http://10.10.11.88:8000/logout
+405   153B   http://10.10.11.88:8000/register
+401    32B   http://10.10.11.88:8000/uploads/affwp-debug.log
+401    32B   http://10.10.11.88:8000/uploads/dump.sql

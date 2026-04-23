@@ -1,0 +1,5 @@
+# Dirsearch started Mon Mar 16 05:36:27 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://variatype.htb
+
+302   247B   http://variatype.htb/download/users.csv    -> REDIRECTS TO: /tools/variable-font-generator
+302   247B   http://variatype.htb/download/history.csv    -> REDIRECTS TO: /tools/variable-font-generator
+200     3KB  http://variatype.htb/services

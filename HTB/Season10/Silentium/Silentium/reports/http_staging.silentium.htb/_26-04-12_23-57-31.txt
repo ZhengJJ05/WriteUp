@@ -1,0 +1,9 @@
+# Dirsearch started Mon Apr 13 00:00:02 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://staging.silentium.htb
+
+401    31B   http://staging.silentium.htb/api/v1/
+401    31B   http://staging.silentium.htb/api/v1/swagger.json
+401    31B   http://staging.silentium.htb/api/v1/swagger.yaml
+301   156B   http://staging.silentium.htb/assets    -> REDIRECTS TO: /assets/
+200    15KB  http://staging.silentium.htb/favicon.ico
+200   766B   http://staging.silentium.htb/manifest.json
+401    31B   http://staging.silentium.htb/ssc/api/v1/bulk

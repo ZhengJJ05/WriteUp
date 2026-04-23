@@ -1,0 +1,10 @@
+Users or groups who can read password for gMSA_ADCS_prod$:
+ > Domain Secure Servers
+gMSA_ADCS_prod$:::304106f739822ea2ad8ebe23f802d078
+gMSA_ADCS_prod$:aes256-cts-hmac-sha1-96:4b663e093cdb8283541c5c40068022668fbd92681eb4433d2ec0ccfc0607298d
+gMSA_ADCS_prod$:aes128-cts-hmac-sha1-96:3727b5300502b7a4a8de0f429299b942
+Users or groups who can read password for gMSA_ADFS_prod$:
+ > Domain Secure Servers
+gMSA_ADFS_prod$:::8126756fb2e69697bfcb04816e685839
+gMSA_ADFS_prod$:aes256-cts-hmac-sha1-96:8c689efdec9f1b8554b1eb1b631ea311db74453427d1273369e6268bcd742e6c
+gMSA_ADFS_prod$:aes128-cts-hmac-sha1-96:74ec76de3c9bf2e77d42ecc9aaa1096c

@@ -1,0 +1,3 @@
+# Dirsearch started Mon Feb 23 00:15:52 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.129.2.29
+
+302     0B   http://10.129.2.29/js    -> REDIRECTS TO: http://10.129.2.29/js/

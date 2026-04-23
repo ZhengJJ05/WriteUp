@@ -1,0 +1,4 @@
+# Dirsearch started Tue Apr 21 21:53:14 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://panel.pterodactyl.htb
+
+301   169B   http://panel.pterodactyl.htb/js    -> REDIRECTS TO: http://panel.pterodactyl.htb/js/
+404     6KB  http://panel.pterodactyl.htb/%C0%AE%C0%AE%C0%AF

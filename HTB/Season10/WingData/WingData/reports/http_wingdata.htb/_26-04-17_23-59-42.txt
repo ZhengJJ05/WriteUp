@@ -1,0 +1,18 @@
+# Dirsearch started Sat Apr 18 00:00:22 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://wingdata.htb
+
+403   317B   http://wingdata.htb/.ht_wsr.txt
+403   317B   http://wingdata.htb/.htaccess.bak1
+403   317B   http://wingdata.htb/.htaccess_orig
+403   317B   http://wingdata.htb/.htaccess.sample
+403   317B   http://wingdata.htb/.htaccess.save
+403   317B   http://wingdata.htb/.htaccessOLD2
+403   317B   http://wingdata.htb/.htaccess.orig
+403   317B   http://wingdata.htb/.htaccess_extra
+403   317B   http://wingdata.htb/.htaccess_sc
+403   317B   http://wingdata.htb/.htaccessOLD
+403   317B   http://wingdata.htb/.htaccessBAK
+403   317B   http://wingdata.htb/.htpasswd_test
+403   317B   http://wingdata.htb/.httr-oauth
+403   317B   http://wingdata.htb/.htpasswds
+403   317B   http://wingdata.htb/.htm
+403   317B   http://wingdata.htb/.html

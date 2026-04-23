@@ -1,0 +1,29 @@
+# Dirsearch started Mon Mar 16 08:05:16 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://portal.variatype.htb/
+
+301   169B   http://portal.variatype.htb/.git    -> REDIRECTS TO: http://portal.variatype.htb/.git/
+200    39B   http://portal.variatype.htb/.git/COMMIT_EDITMSG
+403   555B   http://portal.variatype.htb/.git/
+403   555B   http://portal.variatype.htb/.git/branches/
+403   555B   http://portal.variatype.htb/.git/hooks/
+200    23B   http://portal.variatype.htb/.git/HEAD
+200   143B   http://portal.variatype.htb/.git/config
+200    73B   http://portal.variatype.htb/.git/description
+200   137B   http://portal.variatype.htb/.git/index
+403   555B   http://portal.variatype.htb/.git/info/
+200   240B   http://portal.variatype.htb/.git/info/exclude
+403   555B   http://portal.variatype.htb/.git/logs/
+301   169B   http://portal.variatype.htb/.git/logs/refs    -> REDIRECTS TO: http://portal.variatype.htb/.git/logs/refs/
+301   169B   http://portal.variatype.htb/.git/logs/refs/heads    -> REDIRECTS TO: http://portal.variatype.htb/.git/logs/refs/heads/
+403   555B   http://portal.variatype.htb/.git/refs/
+200   700B   http://portal.variatype.htb/.git/logs/HEAD
+200   700B   http://portal.variatype.htb/.git/logs/refs/heads/master
+200    41B   http://portal.variatype.htb/.git/refs/heads/master
+403   555B   http://portal.variatype.htb/.git/objects/
+301   169B   http://portal.variatype.htb/.git/refs/heads    -> REDIRECTS TO: http://portal.variatype.htb/.git/refs/heads/
+301   169B   http://portal.variatype.htb/.git/refs/tags    -> REDIRECTS TO: http://portal.variatype.htb/.git/refs/tags/
+200     0B   http://portal.variatype.htb/auth.php
+302     0B   http://portal.variatype.htb/dashboard.php    -> REDIRECTS TO: /
+302     0B   http://portal.variatype.htb/download.php    -> REDIRECTS TO: /
+301   169B   http://portal.variatype.htb/files    -> REDIRECTS TO: http://portal.variatype.htb/files/
+403   555B   http://portal.variatype.htb/files/
+302     0B   http://portal.variatype.htb/view.php    -> REDIRECTS TO: /

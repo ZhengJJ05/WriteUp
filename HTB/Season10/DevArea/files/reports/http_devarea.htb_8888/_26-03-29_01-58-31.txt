@@ -1,0 +1,41 @@
+# Dirsearch started Sun Mar 29 02:00:31 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://devarea.htb:8888
+
+301     0B   http://devarea.htb:8888/adm/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/admin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/admin2/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/admin_area/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/adminarea/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/admincp/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/administrator/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/api/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/api/swagger/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/api/swagger/static/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/bb-admin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/cgi-bin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/core/latest/swagger-ui/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/demo/ejb/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/doc/html/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/docs/html/admin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/docs/html/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/druid/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/estore/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/examples/jsp/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/examples/servlets/index.html    -> REDIRECTS TO: ./
+200    15KB  http://devarea.htb:8888/favicon.ico
+301     0B   http://devarea.htb:8888/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/logon/LogonPoint/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/manual/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/mifs/user/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/modelsearch/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/panel-administracion/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/phpmyadmin/docs/html/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/phpmyadmin/doc/html/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/prod-api/druid/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/siteadmin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/stzx_admin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/swagger/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/templates/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/tiny_mce/plugins/imagemanager/pages/im/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/vpn/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/webadmin/index.html    -> REDIRECTS TO: ./
+301     0B   http://devarea.htb:8888/webdav/index.html    -> REDIRECTS TO: ./

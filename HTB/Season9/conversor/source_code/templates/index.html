@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="elegant-card">
+    <h1 class="mb-3 text-center fw-semibold">Conversor</h1>
+<p class="text-center text-muted mb-4">
+    We are Conversor. Have you ever performed large scans with Nmap and wished for a more attractive display? We have the solution!
+    All you need to do is upload your XML file along with the XSLT sheet to transform it into a more aesthetic format.
+    If you prefer, you can also download the template we have developed here:
+    <a href="{{ url_for('static', filename='nmap.xslt') }}" download>Download Template</a>
+</p>
+
+
+    <form action="{{ url_for('convert') }}" method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label class="form-label">XML File</label>
+            <input type="file" name="xml_file" class="form-control form-control-sm" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">XSLT File</label>
+            <input type="file" name="xslt_file" class="form-control form-control-sm" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Convert</button>
+    </form>
+
+    <h3 class="mt-4">Your Uploaded Files:</h3>
+    <ul class="list-group">
+        {% for f in files %}
+            <li class="list-group-item">
+                <a href="{{ url_for('view_file', file_id=f['id']) }}" target="_blank">{{ f['filename'] }}</a>
+            </li>
+        {% else %}
+            <li class="list-group-item text-muted">No files uploaded yet</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

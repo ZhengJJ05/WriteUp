@@ -1,0 +1,22 @@
+# Dirsearch started Sun Mar 29 01:51:40 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://devarea.htb
+
+403   276B   http://devarea.htb/.ht_wsr.txt
+403   276B   http://devarea.htb/.htaccess.bak1
+403   276B   http://devarea.htb/.htaccess.orig
+403   276B   http://devarea.htb/.htaccess.sample
+403   276B   http://devarea.htb/.htaccess.save
+403   276B   http://devarea.htb/.htaccessBAK
+403   276B   http://devarea.htb/.htaccess_extra
+403   276B   http://devarea.htb/.htaccessOLD
+403   276B   http://devarea.htb/.htaccess_orig
+403   276B   http://devarea.htb/.htaccess_sc
+403   276B   http://devarea.htb/.htaccessOLD2
+403   276B   http://devarea.htb/.html
+403   276B   http://devarea.htb/.htm
+403   276B   http://devarea.htb/.htpasswd_test
+403   276B   http://devarea.htb/.htpasswds
+403   276B   http://devarea.htb/.httr-oauth
+403   276B   http://devarea.htb/assets/
+301   311B   http://devarea.htb/assets    -> REDIRECTS TO: http://devarea.htb/assets/
+403   276B   http://devarea.htb/server-status/
+403   276B   http://devarea.htb/server-status

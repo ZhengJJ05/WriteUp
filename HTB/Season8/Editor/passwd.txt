@@ -1,0 +1,2 @@
+mysql:xwiki theEd1t0rTeam99
+ssh:oliver theEd1t0rTeam99

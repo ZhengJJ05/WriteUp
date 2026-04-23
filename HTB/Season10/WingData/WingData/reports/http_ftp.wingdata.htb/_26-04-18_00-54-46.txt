@@ -1,0 +1,5 @@
+# Dirsearch started Sat Apr 18 00:58:46 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://ftp.wingdata.htb
+
+502     0B   http://ftp.wingdata.htb/AlbumCatalogWebservlet
+502     0B   http://ftp.wingdata.htb/albums
+502     0B   http://ftp.wingdata.htb/AlbumCatalogWebservlet/

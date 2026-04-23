@@ -1,0 +1,7 @@
+# Dirsearch started Sun Mar 29 03:38:53 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://devarea.htb:8080/employeeservice
+
+404   471B   http://devarea.htb:8080/employeeservice/%2e%2e//google.com
+404   465B   http://devarea.htb:8080/employeeservice/%2e%2e;/test
+404   457B   http://devarea.htb:8080/employeeservice/..;/
+200     3KB  http://devarea.htb:8080/employeeservice/CTCWebService/CTCWebServiceBean?wsdl
+200     3KB  http://devarea.htb:8080/employeeservice/service?Wsdl

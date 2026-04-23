@@ -1,0 +1,21 @@
+# Dirsearch started Tue Apr 21 23:01:13 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://pterodactyl.htb -t 15
+
+403   555B   http://pterodactyl.htb/.ht_wsr.txt
+403   555B   http://pterodactyl.htb/.htaccess.sample
+403   555B   http://pterodactyl.htb/.htaccess.bak1
+403   555B   http://pterodactyl.htb/.htaccess_extra
+403   555B   http://pterodactyl.htb/.htaccess.orig
+403   555B   http://pterodactyl.htb/.htaccess.save
+403   555B   http://pterodactyl.htb/.htaccessBAK
+403   555B   http://pterodactyl.htb/.htaccess_orig
+403   555B   http://pterodactyl.htb/.htaccess_sc
+403   555B   http://pterodactyl.htb/.htaccessOLD
+403   555B   http://pterodactyl.htb/.html
+403   555B   http://pterodactyl.htb/.htm
+403   555B   http://pterodactyl.htb/.htaccessOLD2
+403   555B   http://pterodactyl.htb/.htpasswds
+403   555B   http://pterodactyl.htb/.httr-oauth
+403   555B   http://pterodactyl.htb/.htpasswd_test
+200   920B   http://pterodactyl.htb/changelog.txt
+200    72KB  http://pterodactyl.htb/phpinfo.php
+403   555B   http://pterodactyl.htb/Public/

@@ -1,0 +1,26 @@
+# Dirsearch started Sun Feb 22 22:50:48 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.129.2.29
+
+302     0B   http://10.129.2.29/js    -> REDIRECTS TO: http://10.129.2.29/js/
+302     0B   http://10.129.2.29/css    -> REDIRECTS TO: http://10.129.2.29/css/
+302     0B   http://10.129.2.29/images    -> REDIRECTS TO: http://10.129.2.29/images/
+200     2KB  http://10.129.2.29/images/
+200   771B   http://10.129.2.29/js/
+404   443B   http://10.129.2.29/webadmin/index.jsp
+404   382B   http://10.129.2.29/webadmin/admin.aspx
+404   381B   http://10.129.2.29/webadmin/index.php
+404   382B   http://10.129.2.29/webadmin/login.html
+404   382B   http://10.129.2.29/webadmin/index.aspx
+404   380B   http://10.129.2.29/webadmin/login.js
+404   382B   http://10.129.2.29/webadmin/admin.html
+404   381B   http://10.129.2.29/webadmin/login.php
+200   163B   http://10.129.2.29/webadmin/
+404   382B   http://10.129.2.29/webadmin/login.aspx
+404   380B   http://10.129.2.29/webadmin/index.js
+404   381B   http://10.129.2.29/webadmin/admin.php
+404   443B   http://10.129.2.29/webadmin/admin.jsp
+200   163B   http://10.129.2.29/webadmin/index.html
+302     0B   http://10.129.2.29/webadmin    -> REDIRECTS TO: http://10.129.2.29/webadmin/
+404   380B   http://10.129.2.29/webadmin/admin.js
+404   375B   http://10.129.2.29/webadmin/out
+404   378B   http://10.129.2.29/webadmin/start/
+404   443B   http://10.129.2.29/webadmin/login.jsp

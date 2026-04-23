@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="elegant-card">
+  <h2>Converted HTML</h2>
+  <div class="result-box">
+    {{ result|safe }}
+  </div>
+  <a href="/" class="btn btn-outline-secondary">Convert Another</a>
+</div>
+{% endblock %}

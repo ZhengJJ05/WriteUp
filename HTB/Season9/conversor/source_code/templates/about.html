@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="elegant-card">
+    <h2 class="text-center mb-4">About the Developers</h2>
+    <p>Conversor is crafted with care by a team of developers who love simplicity and design:</p>
+
+    <div class="dev-grid">
+        <div class="dev-card">
+            <img src="{{ url_for('static', filename='images/fismathack.png') }}" alt="FisMatHack" class="dev-img">
+            <h5><strong>FisMatHack</strong></h5>
+            <p class="role">Backend Developer</p>
+        </div>
+
+        <div class="dev-card">
+            <img src="{{ url_for('static', filename='images/arturo.png') }}" alt="Arturo Vidal" class="dev-img">
+            <h5><strong>Arturo Vidal</strong></h5>
+            <p class="role">Frontend & UX</p>
+        </div>
+
+        <div class="dev-card">
+            <img src="{{ url_for('static', filename='images/david.png') }}" alt="David Ramos" class="dev-img">
+            <h5><strong>David Ramos</strong></h5>
+            <p class="role">Team Lead</p>
+        </div>
+    </div>
+<p>We welcome new contributions! We know we're still a small project with a lot of room to grow. If you'd like to help improve the code or report a security issue, feel free to reach out at contact@conversor.htb. Thank you for your support!</p>
+
+    <div class="text-center mt-4">
+        <a class="btn btn-primary" href="{{ url_for('static', filename='source_code.tar.gz') }}" download>
+            📦 Download Source Code
+        </a>
+    </div>
+</div>
+{% endblock %}

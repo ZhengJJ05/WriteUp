@@ -1,0 +1,76 @@
+# Dirsearch started Mon Feb 23 00:17:21 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u https://10.129.2.29
+
+302     0B   https://10.129.2.29/js    -> REDIRECTS TO: https://10.129.2.29/js/
+302     0B   https://10.129.2.29/api    -> REDIRECTS TO: https://10.129.2.29/api/
+400   570B   https://10.129.2.29/api/2/explore/
+400   572B   https://10.129.2.29/api/__swagger__/
+200     9KB  https://10.129.2.29/api/
+400   563B   https://10.129.2.29/api/api
+400   568B   https://10.129.2.29/api/api-docs
+400   570B   https://10.129.2.29/api/_swagger_/
+400   576B   https://10.129.2.29/api/application.wadl
+400   565B   https://10.129.2.29/api/batch
+400   570B   https://10.129.2.29/api/login.json
+400   564B   https://10.129.2.29/api/docs
+400   565B   https://10.129.2.29/api/docs/
+400   572B   https://10.129.2.29/api/cask/graphql
+400   566B   https://10.129.2.29/api/config
+200     9KB  https://10.129.2.29/api/index.html
+400   569B   https://10.129.2.29/api/error_log
+400   580B   https://10.129.2.29/api/apidocs/swagger.json
+400   566B   https://10.129.2.29/api/jsonws
+400   569B   https://10.129.2.29/api/snapshots
+400   577B   https://10.129.2.29/api/spec/swagger.json
+400   565B   https://10.129.2.29/api/proxy
+400   567B   https://10.129.2.29/api/profile
+400   575B   https://10.129.2.29/api/swagger-ui.html
+400   571B   https://10.129.2.29/api/swagger.yml
+400   572B   https://10.129.2.29/api/swagger.json
+400   572B   https://10.129.2.29/api/swagger.yaml
+400   578B   https://10.129.2.29/api/swagger/index.html
+400   576B   https://10.129.2.29/api/swagger/ui/index
+400   575B   https://10.129.2.29/api/swagger/swagger
+400   575B   https://10.129.2.29/api/v1/swagger.json
+400   585B   https://10.129.2.29/api/swagger/static/index.html
+400   575B   https://10.129.2.29/api/v1/swagger.yaml
+400   562B   https://10.129.2.29/api/v2
+400   563B   https://10.129.2.29/api/v1/
+400   572B   https://10.129.2.29/api/timelion/run
+400   562B   https://10.129.2.29/api/v1
+400   575B   https://10.129.2.29/api/v2/swagger.json
+400   567B   https://10.129.2.29/api/version
+400   562B   https://10.129.2.29/api/v3
+400   562B   https://10.129.2.29/api/v4
+400   590B   https://10.129.2.29/api/vendor/phpunit/phpunit/phpunit
+400   573B   https://10.129.2.29/api/jsonws/invoke
+400   575B   https://10.129.2.29/api/v2/swagger.yaml
+400   566B   https://10.129.2.29/api/whoami
+400   567B   https://10.129.2.29/api/apidocs
+400   578B   https://10.129.2.29/api/2/issue/createmeta
+400   567B   https://10.129.2.29/api/swagger
+400   591B   https://10.129.2.29/api/package_search/v4/documentation
+400   563B   https://10.129.2.29/api/v2/
+400   580B   https://10.129.2.29/api/v2/helpdesk/discover
+302     0B   https://10.129.2.29/css    -> REDIRECTS TO: https://10.129.2.29/css/
+200     2KB  https://10.129.2.29/images/
+302     0B   https://10.129.2.29/images    -> REDIRECTS TO: https://10.129.2.29/images/
+200   771B   https://10.129.2.29/js/
+302     0B   https://10.129.2.29/webadmin    -> REDIRECTS TO: https://10.129.2.29/webadmin/
+200   163B   https://10.129.2.29/webadmin/
+404   381B   https://10.129.2.29/webadmin/admin.php
+200   163B   https://10.129.2.29/webadmin/index.html
+404   382B   https://10.129.2.29/webadmin/admin.html
+404   443B   https://10.129.2.29/webadmin/admin.jsp
+404   443B   https://10.129.2.29/webadmin/index.jsp
+404   380B   https://10.129.2.29/webadmin/admin.js
+404   380B   https://10.129.2.29/webadmin/index.js
+404   382B   https://10.129.2.29/webadmin/login.aspx
+404   443B   https://10.129.2.29/webadmin/login.jsp
+404   375B   https://10.129.2.29/webadmin/out
+404   381B   https://10.129.2.29/webadmin/login.php
+404   382B   https://10.129.2.29/webadmin/index.aspx
+404   382B   https://10.129.2.29/webadmin/login.html
+404   380B   https://10.129.2.29/webadmin/login.js
+404   378B   https://10.129.2.29/webadmin/start/
+404   381B   https://10.129.2.29/webadmin/index.php
+404   382B   https://10.129.2.29/webadmin/admin.aspx

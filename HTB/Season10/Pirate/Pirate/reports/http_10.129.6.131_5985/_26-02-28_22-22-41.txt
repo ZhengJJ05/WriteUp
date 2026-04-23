@@ -1,0 +1,7 @@
+# Dirsearch started Sat Feb 28 22:25:25 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://10.129.6.131:5985
+
+403   312B   http://10.129.6.131:5985/%2e%2e//google.com
+403   312B   http://10.129.6.131:5985/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+403   312B   http://10.129.6.131:5985/\..\..\..\..\..\..\..\..\..\etc\passwd
+403   312B   http://10.129.6.131:5985/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+405     0B   http://10.129.6.131:5985/wsman

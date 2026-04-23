@@ -1,0 +1,23 @@
+# Dirsearch started Sun Mar  8 11:22:53 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://cctv.htb
+
+403   273B   http://cctv.htb/.ht_wsr.txt
+403   273B   http://cctv.htb/.htaccess.bak1
+403   273B   http://cctv.htb/.htaccess.orig
+403   273B   http://cctv.htb/.htaccess.sample
+403   273B   http://cctv.htb/.htaccess.save
+403   273B   http://cctv.htb/.htaccess_sc
+403   273B   http://cctv.htb/.htaccessBAK
+403   273B   http://cctv.htb/.html
+403   273B   http://cctv.htb/.htaccess_extra
+403   273B   http://cctv.htb/.htaccessOLD2
+403   273B   http://cctv.htb/.htaccess_orig
+403   273B   http://cctv.htb/.htaccessOLD
+403   273B   http://cctv.htb/.htm
+403   273B   http://cctv.htb/.htpasswds
+403   273B   http://cctv.htb/.httr-oauth
+403   273B   http://cctv.htb/.htpasswd_test
+403   273B   http://cctv.htb/.php
+403   273B   http://cctv.htb/cgi-bin/
+301   309B   http://cctv.htb/javascript    -> REDIRECTS TO: http://cctv.htb/javascript/
+403   273B   http://cctv.htb/server-status
+403   273B   http://cctv.htb/server-status/

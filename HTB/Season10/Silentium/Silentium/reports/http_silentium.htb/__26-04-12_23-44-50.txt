@@ -1,0 +1,4 @@
+# Dirsearch started Sun Apr 12 23:45:56 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://silentium.htb/
+
+301   178B   http://silentium.htb/assets    -> REDIRECTS TO: http://silentium.htb/assets/
+403   564B   http://silentium.htb/assets/

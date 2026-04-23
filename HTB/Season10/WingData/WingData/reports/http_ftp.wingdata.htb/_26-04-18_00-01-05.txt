@@ -1,0 +1,18 @@
+# Dirsearch started Sat Apr 18 00:10:44 2026 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://ftp.wingdata.htb
+
+200   104B   http://ftp.wingdata.htb/crossdomain.xml
+200     0B   http://ftp.wingdata.htb/css
+200    19KB  http://ftp.wingdata.htb/favicon.ico
+500     0B   http://ftp.wingdata.htb/help
+500     0B   http://ftp.wingdata.htb/help/
+500     0B   http://ftp.wingdata.htb/icons
+500     0B   http://ftp.wingdata.htb/images/
+500     0B   http://ftp.wingdata.htb/images
+500     0B   http://ftp.wingdata.htb/include
+500     0B   http://ftp.wingdata.htb/include/
+500     0B   http://ftp.wingdata.htb/language
+200     3KB  http://ftp.wingdata.htb/login.html
+200   170B   http://ftp.wingdata.htb/logout.html
+500     0B   http://ftp.wingdata.htb/plugins
+500     0B   http://ftp.wingdata.htb/plugins/
+200   258B   http://ftp.wingdata.htb/search.html
