@@ -1,0 +1,17 @@
+server {
+    listen 80 default_server;
+    server_name snapped.htb;
+
+    root /var/www/html/snapped;
+    index index.html;
+
+
+
+    if ($host != snapped.htb) {
+        rewrite ^ http://snapped.htb/;
+
+    }
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
